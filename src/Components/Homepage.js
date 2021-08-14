@@ -1,10 +1,16 @@
 import React from 'react'
+import "../index.css";
+import VisualCenter from './VisualCenter';
+import Cards from "./Cards";
+import Footer from "./Footer";
 
 function Homepage() {
     return (
-        <div>
-            <h1>My Homepage</h1>
-        </div>
+       <React.Fragment>
+           <VisualCenter />
+           <Cards />
+            <Footer />
+       </React.Fragment>
     )
 }
 
