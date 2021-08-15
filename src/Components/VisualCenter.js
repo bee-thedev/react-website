@@ -2,12 +2,12 @@ import React from 'react';
 import {NavButton} from "./NavButton";
 import "../index.css";
 import "./VisualCenter.css";
-import earth from "./Videos/earth.mp4";
+// import earth from "./Videos/earth.mp4";
 
 function VisualCenter() {
     return (
         <div className="visual-container">
-            <video src={earth} autoPlay loop muted />
+            {/* <video src={earth} autoPlay loop muted /> */}
             <h1>World is Spinning Around!</h1>
             <p>Are you game?!?</p>
 
